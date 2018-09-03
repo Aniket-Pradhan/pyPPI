@@ -58,3 +58,16 @@ make html
 ```
 
 This will build a html version of the documentation in the folder `build`. To view the documentation, open the file `index.html`.
+
+
+=========================================================================
+
+In order to run `genericParser.py` and `pyPPIParser.py`, you would have to install the dependencies.
+
+Firstly, to install dependencies, enter `pipenv install`
+
+To enter the virtual environment, enter `pipenv shell`
+
+Now follow the steps above to build and install `pyppi`. No need to run tests (They seem to be broken).
+
+Now simply run either of `genericParser.py` or `pyPPIParser.py`.
